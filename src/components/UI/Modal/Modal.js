@@ -5,6 +5,7 @@ const modal = (props) => (
   //TODO
   //update modal component
   //update layout component
+  //update
   <div className={classes.Modal}>
     {props.children}
   </div>
