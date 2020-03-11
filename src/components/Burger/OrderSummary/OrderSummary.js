@@ -3,7 +3,7 @@ import Aux from '../../../hoc/Aux';
 import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component {
-
+  //this could be a functional component, doesn't have to be a class
   render() {
     const ingredientSummary = Object.keys(this.props.ingredients)
     .map(igKey => {
